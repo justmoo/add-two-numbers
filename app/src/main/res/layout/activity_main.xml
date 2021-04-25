@@ -24,13 +24,14 @@
             <TextView
                 android:textColor="@android:color/white"
                 android:layout_gravity="center_horizontal"
-                android:text="إضافة عددين"
+                android:text="جمع عددين"
                 android:textSize="34dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
         </LinearLayout>
         <LinearLayout
+
             android:id="@+id/textContainer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
@@ -43,9 +44,14 @@
                 android:hint="العدد الثاني"
                 android:layout_width="150dp"
                 android:layout_height="50dp"/>
-            <Space
+
+            <TextView
+                android:text="+"
+                android:textSize="30dp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
                 android:layout_width="50dp"
-                android:layout_height="50dp"/>
+                android:layout_height="wrap_content"/>
 
             <EditText
                 android:textColor="@android:color/white"
@@ -69,7 +75,7 @@
                 android:layout_width="170dp"
                 android:textSize="26dp"
                 android:layout_height="wrap_content"
-                android:text="إجمع"/>
+                android:text="احسب"/>
         </LinearLayout>
         <LinearLayout
             android:id="@+id/resultContainer"
